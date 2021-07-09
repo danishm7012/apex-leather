@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import "./footer/index.scss";
+@import "./header/index.scss";
+@import "./header/mobileNavbar.scss";
+@import "./homepage/index.scss";
+@import "./searchbar/index.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+&:hover{
+    text-decoration: none;
+}
+}
+li{
+    list-style: none;
+}

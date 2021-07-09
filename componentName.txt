@@ -1,0 +1,30 @@
+Apex Leather
+Home Page
+1.Header
+	1.Top Header
+	2.Search Bar 
+	3.Mega Menu
+	4.Mobile Mega Menu
+2.Hero Section
+3.Leather Tanning
+4.Men Fashion
+5.Women Fashion
+6.Business Fashion
+7.About Us
+8.Our Process
+
+9.Footer
+10.Bread Crum
+11. Search Modal
+12.Shopping Cart Modal
+13.Pagination
+14.Product Card
+15. Social Media
+
+
+Product Detail Page
+Product Review and Description
+
+
+Contact Page.
+Blog Page
