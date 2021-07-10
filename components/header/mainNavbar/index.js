@@ -6,7 +6,7 @@ const MainNavbar = () => {
   return (
     <div>
       <div className="main-navbar pl-3">
-        <ul>
+        <ul className="mb-0">
           <li className="active">
             <Link href="">home</Link>
           </li>
@@ -99,7 +99,7 @@ const MainNavbar = () => {
                     </ul>
                   </div>
                 </li>
-               
+
                 <li className="inner-dropdown w-100">
                   <Link href="">
                     <a className="d-flex items-link w-100">
@@ -129,7 +129,6 @@ const MainNavbar = () => {
                     </ul>
                   </div>
                 </li>
-              
               </ul>
             </div>
           </li>

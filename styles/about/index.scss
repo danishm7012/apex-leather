@@ -1,0 +1,35 @@
+.about-us {
+  .about-text {
+    h4 {
+      color: #fc4a45;
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    h2 {
+      color: #2f2f2f;
+      font-size: 24px;
+      font-weight: 800;
+    }
+    p {
+      font-size: 16px;
+      color: #222222;
+      font-weight: 400;
+    }
+    .btn-1 {
+      margin-top: 1rem;
+      a {
+        color: #fff;
+        background: #fc4a45;
+        border: 2px solid #fff;
+        padding: 15px 25px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

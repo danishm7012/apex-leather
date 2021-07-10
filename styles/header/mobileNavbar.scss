@@ -5,8 +5,28 @@
 }
 
 .mobile-navbar {
+  display: none;
+  @media screen and (max-width: 1100px) {
+    display: block;
+  }
   .react-responsive-modal-modal {
-    width: 80%;
-    background: #222222;
+    width: 100%;
+    // background: #222222;
+    padding: -2rem;
+  }
+}
+
+.mobile-navbar-style {
+  .active {
+    padding: 10px 0px;
+    a {
+      color: #3f3f3f;
+    }
+  }
+  .card-body {
+    padding: 5px;
+    li {
+      padding: 10px 0px;
+    }
   }
 }

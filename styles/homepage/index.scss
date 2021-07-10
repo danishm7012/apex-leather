@@ -1,0 +1,145 @@
+.slider-content {
+  min-height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  .banner-text {
+    h2 {
+      color: #fff;
+      font-size: 45px;
+      font-weight: 700;
+      margin-top: 2rem;
+    }
+  }
+}
+
+.branded-image {
+  background: url("../../assests/images/men-fashion.jpg");
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    .overlay {
+      background: rgba($color: #000000, $alpha: 0.6);
+    }
+    .btn-1 {
+      background: #fc4f4f;
+      border: 0px;
+    }
+  }
+  .overlay {
+    width: 100%;
+    height: 100%;
+  }
+  .img-text {
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    h2 {
+      font-size: 3.5rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .btn-1 {
+      border: 2px solid #fff;
+      color: #fff;
+      border-radius: 0px;
+      font-size: 12px;
+      padding: 1rem;
+      margin-top: 1rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.branded-image-women {
+  background: url("../../assests/images/women-fashion.jpg");
+  width: 100%;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
+  &:hover {
+    .overlay {
+      background: rgba($color: #000000, $alpha: 0.6);
+    }
+    .btn-1 {
+      background: #fc4f4f;
+      border: 0px;
+    }
+  }
+  .overlay {
+    width: 100%;
+    height: 100%;
+  }
+  .img-text {
+    position: absolute;
+    top: 8%;
+    right: 3%;
+    h2 {
+      font-size: 3.5rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .btn-1 {
+      border: 2px solid #fff;
+      color: #fff;
+      border-radius: 0px;
+      font-size: 12px;
+      padding: 1rem;
+      margin-top: 1rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.head-title {
+  h2 {
+    color: #222222;
+    font-size: 45px;
+    font-weight: 700;
+  }
+  hr {
+    width: 150px;
+    border-top: 3px solid #fc4f4f;
+  }
+  .view-all {
+    a {
+      color: #222222;
+      font-size: 16px;
+      font-weight: 600;
+      border: 1px solid #fc4f4f;
+      padding: 7px 15px;
+      &:hover {
+        background: #fc4f4f;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.process-details {
+  h4 {
+    color: #fc4f4f;
+    font-size: 25px;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .process-card {
+    background: #c6834d;
+    border: 1px solid #fc4f4f;
+    margin-top: 1rem;
+    p {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+}

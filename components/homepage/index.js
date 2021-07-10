@@ -1,15 +1,18 @@
-import React from 'react'
-import Header from '../header'
-import Footer from '../footer/index'
+import React from "react";
+import MainBanner from "./mainBanner";
+import LeatherTanning from "./leatherTanning";
+import AboutUs from "../aboutUs";
+import ProcessDetail from "./processDetail";
 
 const HomePage = () => {
-    return (
-        <div>
-            <Header/>
-            <Footer/>
+  return (
+    <div>
+      <MainBanner />
+      <LeatherTanning />
+      <AboutUs />
+      <ProcessDetail />
+    </div>
+  );
+};
 
-        </div>
-    )
-}
-
-export default HomePage
+export default HomePage;
