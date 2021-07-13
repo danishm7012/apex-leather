@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
+    "formik": "^2.2.9",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-bootstrap": "^1.6.1",
@@ -17,7 +18,10 @@
     "react-icons": "^4.2.0",
     "react-responsive-modal": "^6.1.0",
     "react-slick": "^0.28.1",
-    "sass": "^1.35.2"
+    "react-toastify": "^7.0.4",
+    "sass": "^1.35.2",
+    "slick-carousel": "^1.8.1",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
     "eslint": "7.30.0",

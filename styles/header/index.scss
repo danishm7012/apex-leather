@@ -105,7 +105,7 @@
 
 .main-navbar {
   background: #262626;
-  @media screen and (max-width:1100px) {
+  @media screen and (max-width: 1100px) {
     display: none;
   }
   ul {
@@ -146,11 +146,12 @@
             background-color: transparent;
           }
           a {
-            color: #424242;
+            color: silver !important;
             font-size: 13px;
+            font-weight: 400;
             text-transform: capitalize;
             &:hover {
-              color: #fc4f4f;
+              color: #fc4f4f !important;
             }
           }
         }
@@ -159,7 +160,7 @@
     .active {
       background: #424242;
       a {
-        color: #fc4f4f;
+        color: #fc4f4f !important;
         &:hover {
           text-decoration: none;
         }

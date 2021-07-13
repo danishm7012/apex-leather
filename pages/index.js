@@ -1,13 +1,13 @@
-import HomePage from "../components/homepage"
-
+import HomePage from "../components/homepage";
+import Meta from "../components/Meta";
 
 export default function Home() {
   return (
     <>
-    <div className="">
-      <HomePage/>
-    </div>
+      <Meta />
+      <div className="">
+        <HomePage />
+      </div>
     </>
-  
-  )
+  );
 }

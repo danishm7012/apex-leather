@@ -4,6 +4,9 @@ import { Modal } from "react-responsive-modal";
 import { AiOutlineAlignLeft } from "react-icons/ai";
 import Link from "next/link";
 import { Accordion, Card, Button } from "react-bootstrap";
+import MenFashion from "./menFashion";
+import WomenFashion from "./womenFashion";
+import BusinessFashion from "./businessFashion";
 import { FaAngleDown, FaAngleRight } from "react-icons/fa";
 
 const MobileNavbar = () => {
@@ -95,7 +98,9 @@ const MobileNavbar = () => {
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="1">
-                    <Card.Body>Hello! I'm another body</Card.Body>
+                    <Card.Body>
+                      <MenFashion />
+                    </Card.Body>
                   </Accordion.Collapse>
                 </Card>
                 <Card>
@@ -117,7 +122,9 @@ const MobileNavbar = () => {
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="2">
-                    <Card.Body>Hello! I'm another body</Card.Body>
+                    <Card.Body>
+                      <WomenFashion />
+                    </Card.Body>
                   </Accordion.Collapse>
                 </Card>
                 <Card>
@@ -139,7 +146,9 @@ const MobileNavbar = () => {
                     </Accordion.Toggle>
                   </Card.Header>
                   <Accordion.Collapse eventKey="3">
-                    <Card.Body>Hello! I'm another body</Card.Body>
+                    <Card.Body>
+                      <BusinessFashion />
+                    </Card.Body>
                   </Accordion.Collapse>
                 </Card>
                 <Card>

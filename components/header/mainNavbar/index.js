@@ -8,7 +8,7 @@ const MainNavbar = () => {
       <div className="main-navbar pl-3">
         <ul className="mb-0">
           <li className="active">
-            <Link href="">home</Link>
+            <Link href="/">home</Link>
           </li>
           <li className="menu-items">
             <Link href="">
@@ -55,21 +55,31 @@ const MainNavbar = () => {
                   <div className="drop-down-menu-1 p-4">
                     <ul>
                       <li>
-                        <Link href="">Anline Leather</Link>
+                        <Link href="">Belt</Link>
                       </li>
                       <li>
-                        <Link href="">Buffalo Hide Leather</Link>
+                        <Link href="">Bracelets</Link>
                       </li>
                       <li>
-                        <Link href="">Cow Hide Leather</Link>
+                        <Link href=""> Caps </Link>
                       </li>
                       <li>
-                        <Link href="">Goat Leather</Link>
+                        <Link href=""> Card Holder </Link>
                       </li>
                       <li>
-                        <Link href="">Sheep Leather</Link>
+                        <Link href="">Gloves</Link>
+                      </li>
+                      <li>
+                        <Link href="">Shaving Pouches</Link>
+                      </li>
+                      <li>
+                        <Link href="">Wallets</Link>
+                      </li>
+                      <li>
+                        <Link href="">Watch Straps</Link>
                       </li>
                     </ul>
+                  
                   </div>
                 </li>
                 <li className="inner-dropdown w-100">
@@ -82,51 +92,64 @@ const MainNavbar = () => {
                   <div className="drop-down-menu-1 p-4">
                     <ul>
                       <li>
-                        <Link href="">Anline Leather</Link>
+                        <Link href="">Briefcases</Link>
                       </li>
                       <li>
-                        <Link href="">Buffalo Hide Leather</Link>
+                        <Link href="">Crossbody Bags</Link>
                       </li>
                       <li>
-                        <Link href="">Cow Hide Leather</Link>
+                        <Link href="">Laptops Bag</Link>
                       </li>
                       <li>
-                        <Link href="">Goat Leather</Link>
+                        <Link href="">Messenger Bags</Link>
                       </li>
                       <li>
-                        <Link href="">Sheep Leather</Link>
+                        <Link href="">Office Bags</Link>
+                      </li>
+                      <li>
+                        <Link href="">Wrist / Clutch Bags</Link>
                       </li>
                     </ul>
+                  
                   </div>
                 </li>
 
                 <li className="inner-dropdown w-100">
                   <Link href="">
                     <a className="d-flex items-link w-100">
-                      <a>Men Leather outwear</a>
-                      <div className="">
-                        <FaAngleRight className="mt-1 " />
-                      </div>
+                      Men Leather Outwear
+                      <FaAngleRight className="mt-1" />
                     </a>
                   </Link>
                   <div className="drop-down-menu-1 p-4">
                     <ul>
                       <li>
-                        <Link href="">Anline Leather</Link>
+                        <Link href="">Biker Jackets</Link>
                       </li>
                       <li>
-                        <Link href="">Buffalo Hide Leather</Link>
+                        <Link href="">Blazers and Reefers</Link>
                       </li>
                       <li>
-                        <Link href="">Cow Hide Leather</Link>
+                        <Link href=""> Bomber Jackets </Link>
                       </li>
                       <li>
-                        <Link href="">Goat Leather</Link>
+                        <Link href=""> Messenger Bags </Link>
                       </li>
                       <li>
-                        <Link href="">Sheep Leather</Link>
+                        <Link href="">Bomber Jackets</Link>
+                      </li>
+                      <li>
+                        <Link href="">Full Length Coats</Link>
+                      </li>
+                      <li>
+                        <Link href="">Parka,Duffel and Trench Coats</Link>
+                      </li>
+                      <li>
+                        <Link href="">Waist Coats / Gilets</Link>
                       </li>
                     </ul>
+                 
+                 
                   </div>
                 </li>
               </ul>
@@ -150,21 +173,32 @@ const MainNavbar = () => {
                   <div className="drop-down-menu-1 p-4">
                     <ul>
                       <li>
-                        <Link href="">Anline Leather</Link>
+                        <Link href="">Belt</Link>
                       </li>
                       <li>
-                        <Link href="">Buffalo Hide Leather</Link>
+                        <Link href="">Bracelets</Link>
                       </li>
                       <li>
-                        <Link href="">Cow Hide Leather</Link>
+                        <Link href=""> Cosmetic Pouches </Link>
                       </li>
                       <li>
-                        <Link href="">Goat Leather</Link>
+                        <Link href=""> Jewellery Cases </Link>
                       </li>
                       <li>
-                        <Link href="">Sheep Leather</Link>
+                        <Link href="">Gloves</Link>
+                      </li>
+                      <li>
+                        <Link href="">Wallets</Link>
+                      </li>
+                      <li>
+                        <Link href="">Watch Straps</Link>
+                      </li>
+                      <li>
+                        <Link href="">Lipstick Cases</Link>
                       </li>
                     </ul>
+                  
+                  
                   </div>
                 </li>
 
@@ -178,21 +212,22 @@ const MainNavbar = () => {
                   <div className="drop-down-menu-1 p-4">
                     <ul>
                       <li>
-                        <Link href="">Anline Leather</Link>
+                        <Link href="">Backpacks</Link>
                       </li>
                       <li>
-                        <Link href="">Buffalo Hide Leather</Link>
+                        <Link href="">Crossbody Bags</Link>
                       </li>
                       <li>
-                        <Link href="">Cow Hide Leather</Link>
+                        <Link href="">Crossbody Bags</Link>
                       </li>
                       <li>
-                        <Link href="">Goat Leather</Link>
+                        <Link href="">Hand Bags</Link>
                       </li>
                       <li>
-                        <Link href="">Sheep Leather</Link>
+                        <Link href="">Crossbody Bags</Link>
                       </li>
                     </ul>
+                 
                   </div>
                 </li>
 
@@ -206,21 +241,32 @@ const MainNavbar = () => {
                   <div className="drop-down-menu-1 p-4">
                     <ul>
                       <li>
-                        <Link href="">Anline Leather</Link>
+                        <Link href="">Biker Jackets</Link>
                       </li>
                       <li>
-                        <Link href="">Buffalo Hide Leather</Link>
+                        <Link href="">Blazers and Reefers</Link>
                       </li>
                       <li>
-                        <Link href="">Cow Hide Leather</Link>
+                        <Link href=""> Bomber Jackets </Link>
                       </li>
                       <li>
-                        <Link href="">Goat Leather</Link>
+                        <Link href=""> Messenger Bags </Link>
                       </li>
                       <li>
-                        <Link href="">Sheep Leather</Link>
+                        <Link href="">Bomber Jackets</Link>
+                      </li>
+                      <li>
+                        <Link href="">Full Length Coats</Link>
+                      </li>
+                      <li>
+                        <Link href="">Parka,Duffel and Trench Coats</Link>
+                      </li>
+                      <li>
+                        <Link href="">Waist Coats / Gilets</Link>
                       </li>
                     </ul>
+                  
+                  
                   </div>
                 </li>
               </ul>
@@ -244,21 +290,19 @@ const MainNavbar = () => {
                   <div className="drop-down-menu-1 p-4">
                     <ul>
                       <li>
-                        <Link href="">Anline Leather</Link>
+                        <Link href="">Desk items</Link>
                       </li>
                       <li>
-                        <Link href="">Buffalo Hide Leather</Link>
+                        <Link href="">Diaries</Link>
                       </li>
                       <li>
-                        <Link href="">Cow Hide Leather</Link>
+                        <Link href="">Key Holders</Link>
                       </li>
                       <li>
-                        <Link href="">Goat Leather</Link>
-                      </li>
-                      <li>
-                        <Link href="">Sheep Leather</Link>
+                        <Link href="">Notepads</Link>
                       </li>
                     </ul>
+                 
                   </div>
                 </li>
 
@@ -272,19 +316,10 @@ const MainNavbar = () => {
                   <div className="drop-down-menu-1 p-4">
                     <ul>
                       <li>
-                        <Link href="">Anline Leather</Link>
+                        <Link href="">Document Bags</Link>
                       </li>
                       <li>
-                        <Link href="">Buffalo Hide Leather</Link>
-                      </li>
-                      <li>
-                        <Link href="">Cow Hide Leather</Link>
-                      </li>
-                      <li>
-                        <Link href="">Goat Leather</Link>
-                      </li>
-                      <li>
-                        <Link href="">Sheep Leather</Link>
+                        <Link href="">Organizers</Link>
                       </li>
                     </ul>
                   </div>
@@ -300,21 +335,22 @@ const MainNavbar = () => {
                   <div className="drop-down-menu-1 p-4">
                     <ul>
                       <li>
-                        <Link href="">Anline Leather</Link>
+                        <Link href="">Cheque Book Cases</Link>
                       </li>
                       <li>
-                        <Link href="">Buffalo Hide Leather</Link>
+                        <Link href="">Document Bags</Link>
                       </li>
                       <li>
-                        <Link href="">Cow Hide Leather</Link>
+                        <Link href="">Folders</Link>
                       </li>
                       <li>
-                        <Link href="">Goat Leather</Link>
+                        <Link href="">Gift Sets</Link>
                       </li>
                       <li>
-                        <Link href="">Sheep Leather</Link>
+                        <Link href="">Writing Portfolios</Link>
                       </li>
                     </ul>
+                  
                   </div>
                 </li>
               </ul>
@@ -362,10 +398,10 @@ const MainNavbar = () => {
             </div>
           </li>
           <li>
-            <Link href="">about us</Link>
+            <Link href="/about">about us</Link>
           </li>
           <li>
-            <Link href="">contact us</Link>
+            <Link href="/contactUs">contact us</Link>
           </li>
         </ul>
       </div>

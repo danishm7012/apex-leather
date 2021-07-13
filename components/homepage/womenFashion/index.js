@@ -8,7 +8,7 @@ import { ProductData } from "../../../data/productData";
 import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-const LeatherTanning = () => {
+const WomenFashion = () => {
   var settings = {
     dots: true,
     infinite: true,
@@ -22,33 +22,33 @@ const LeatherTanning = () => {
           slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1.1,
-          slidesToScroll: 1
-        }
-      }
+          slidesToScroll: 1,
+        },
+      },
       // You can unslick at a given breakpoint now by adding:
       // settings: "unslick"
       // instead of a settings object
-    ]
+    ],
   };
   return (
     <div>
       <Container className="my-5">
         <div className="head-title">
-          <h2>Leather Tanning</h2>
+          <h2>Women Fashion</h2>
           <hr />
           <br />
         </div>
@@ -82,4 +82,4 @@ const LeatherTanning = () => {
   );
 };
 
-export default LeatherTanning;
+export default WomenFashion;

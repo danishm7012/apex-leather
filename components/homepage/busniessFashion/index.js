@@ -8,7 +8,7 @@ import { ProductData } from "../../../data/productData";
 import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-const LeatherTanning = () => {
+const BusinessFashion = () => {
   var settings = {
     dots: true,
     infinite: true,
@@ -48,7 +48,7 @@ const LeatherTanning = () => {
     <div>
       <Container className="my-5">
         <div className="head-title">
-          <h2>Leather Tanning</h2>
+          <h2>Business Fashion</h2>
           <hr />
           <br />
         </div>
@@ -82,4 +82,4 @@ const LeatherTanning = () => {
   );
 };
 
-export default LeatherTanning;
+export default BusinessFashion;

@@ -8,6 +8,7 @@ const AboutUs = () => {
   return (
     <div>
       <div className="about-us my-5">
+        <br />
         <Container fluid>
           <Row className="px-3">
             <Col md={6} sm={12} xs={12}>
@@ -26,9 +27,10 @@ const AboutUs = () => {
                   available.
                 </p>
                 <br />
-                <div className="btn-1">
+                <div className="btn-1 mb-3">
                   <Link href="">Read More</Link>
                 </div>
+                <br />
               </div>
             </Col>
             <Col md={6} sm={12} xs={12}>
