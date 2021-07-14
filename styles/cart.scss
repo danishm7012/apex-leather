@@ -1,0 +1,91 @@
+.cart-table {
+  thead {
+    border: none;
+    th {
+      font-size: 12px;
+      color: #666666;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+  }
+  button {
+    background: transparent !important;
+    outline: none !important;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+  }
+  tbody {
+    td {
+      line-height: 40px;
+    }
+    .title {
+      font-size: 13px;
+      color: #666666;
+    }
+  }
+}
+
+.apply-coupon {
+  input {
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #222222;
+    &:focus,
+    &:active {
+      box-shadow: none;
+      border-bottom: 1px solid #222222;
+    }
+    &::placeholder {
+      font-size: 13px;
+    }
+  }
+
+  .btn-1 {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #222222;
+    border-radius: 0px;
+    color: #222222;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .btn-2 {
+    color: #222222;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 700;
+
+    &:hover {
+      color: #fc4a45;
+    }
+  }
+}
+
+.checkout-part {
+  .checkout-card {
+    background: #f9f9f9;
+  }
+  .d-flex-1 {
+    display: flex;
+    justify-content: space-between;
+    h3 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+  }
+}
+.checkout-btn {
+  background: #222222;
+  padding: 20px 0px;
+  &:hover {
+    background: #fc4a45;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  a {
+    color: #f9f9f9;
+  }
+}

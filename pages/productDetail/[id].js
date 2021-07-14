@@ -1,7 +1,7 @@
 import React from "react";
-import Hero from "../components/hero";
-import Meta from "../components/Meta";
-import ProductDetailPage from "../components/productDetails";
+import Hero from "../../components/hero";
+import Meta from "../../components/Meta";
+import ProductDetailPage from "../../components/productDetails";
 const productDetail = () => {
   return (
     <div>

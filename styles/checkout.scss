@@ -1,0 +1,85 @@
+.checkout-form {
+  .coupon {
+    background: #f9f9f9;
+  }
+  p {
+    color: #555555;
+    font-size: 17px;
+    font-weight: 400;
+    a {
+      color: #555555;
+      &:hover {
+        color: #fc4a45;
+      }
+    }
+    .icon {
+      color: green;
+      margin-right: 5px;
+    }
+  }
+  label {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  input {
+    border-radius: 0px;
+    height: 55px;
+    &:focus,
+    &:active {
+      box-shadow: none;
+      border: 1px solid #000;
+    }
+  }
+  h2 {
+    color: #000;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  hr {
+    width: 70px;
+    height: 2px;
+    background: #000;
+    margin-top: 0px;
+  }
+  textarea {
+    background: #f9f9f9;
+    padding: 30px;
+    &:focus,
+    &:active {
+      box-shadow: none;
+      border: 1px solid #000;
+    }
+  }
+  .d-flex-1 {
+    margin-top: 20px;
+    .number {
+      margin-left: 10px;
+    }
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid silver;
+  }
+  .order-details {
+    border: 2px solid silver;
+  }
+  .restriction {
+    background: #f9f9f9;
+    display: flex;
+    .icon {
+      color: green;
+      margin-right: 20px;
+      font-size: 20px;
+    }
+  }
+  .btn-1 {
+    background: #222222;
+    color: #fff;
+    border-radius: 0px;
+    padding: 20px;
+    font-size: 14px;
+    &:hover {
+      background: #fc4a45;
+      color: #fff;
+    }
+  }
+}
