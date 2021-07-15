@@ -16,10 +16,15 @@ const ProcessDetail = () => {
           <Row>
             {ProcessData.map((Data) => {
               return (
-                <Col md={3} sm={6} xs={12}>
+                <Col md={3} sm={6} xs={12} key={Data.id}>
                   <div className="process-card text-center p-3">
                     <div className="img ">
-                      <Image src={Data.img.type} height={60} width={60} />
+                      <Image
+                        src={Data.img.type}
+                        height={60}
+                        width={60}
+                        alt="Process Detail Image"
+                      />
                     </div>
                     <div className="text">
                       <p>{Data.title}</p>

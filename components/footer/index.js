@@ -46,19 +46,19 @@ const Footer = () => {
                 <br />
                 <ul>
                   <li>
-                    <Link href="">Home</Link>
+                    <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <Link href="">About Us</Link>
+                    <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="">Blog</Link>
+                    <Link href="/blog">Blog</Link>
                   </li>
                   <li>
-                    <Link href="">Shipping Policy</Link>
+                    <Link href="/">Shipping Policy</Link>
                   </li>
                   <li>
-                    <Link href="">Contact</Link>
+                    <Link href="/contactUs">Contact</Link>
                   </li>
                 </ul>
 
@@ -102,16 +102,16 @@ const Footer = () => {
                 <br />
                 <ul>
                   <li>
-                    <Link href="">Leather Tanning</Link>
+                    <Link href="/">Leather Tanning</Link>
                   </li>
                   <li>
-                    <Link href="">Men Fashion</Link>
+                    <Link href="/">Men Fashion</Link>
                   </li>
                   <li>
-                    <Link href="">Women Fashion</Link>
+                    <Link href="/">Women Fashion</Link>
                   </li>
                   <li>
-                    <Link href="">Business Fashion</Link>
+                    <Link href="/">Business Fashion</Link>
                   </li>
                 </ul>
               </div>

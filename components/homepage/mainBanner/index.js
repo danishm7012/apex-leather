@@ -11,7 +11,7 @@ const MainBanner = () => {
           <Col md={8} xs={12} className="p-0 m-0">
             <div className="main-slider">
               <Carousel>
-                {MainSlider.map((Data) => {
+                {MainSlider.map((Data,i) => {
                   console.log("Slider Data", Data);
                   return (
                     <Carousel.Item
@@ -19,6 +19,7 @@ const MainBanner = () => {
                       style={{
                         backgroundImage: `url(${Data.slide.type.src})`,
                       }}
+                      key="i"
                     >
                       <div className="banner-text text-center my-2">
                         <h2>{Data.title}</h2>
@@ -30,7 +31,7 @@ const MainBanner = () => {
             </div>
           </Col>
           <Col md={4} xs={12} className="p-0 m-0">
-            <Link href="">
+            <Link href="/">
               <div className="branded-image">
                 <div className="overlay">
                   <div className="img-text">
@@ -43,7 +44,7 @@ const MainBanner = () => {
                 </div>
               </div>
             </Link>
-            <Link href="">
+            <Link href="/">
               <div className="branded-image-women">
                 <div className="overlay">
                   <div className="img-text">

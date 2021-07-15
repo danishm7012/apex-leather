@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import Logo from "../../../assests/images/logo.png";
 import SearchBar from "../../seachbar";
+import Link from "next/link";
 import { AiOutlineSearch } from "react-icons/ai";
 import { HiOutlineShoppingBag } from "react-icons/hi";
 import SearchPage from "../searchPage";
@@ -13,7 +14,7 @@ const DeskopSearch = () => {
       <Container fluid>
         <Row>
           <Col md={4} xs={6}>
-            <Image src={Logo} />
+            <Image src={Logo} alt="logo" />
           </Col>
           <Col md={5} className="search-bar-desk">
             <div className=" sm-d-none">
@@ -26,10 +27,12 @@ const DeskopSearch = () => {
                 <SearchPage />
               </li>
               <li>
-                <a href="" className="shopping-cart">
-                  <HiOutlineShoppingBag />
-                  <div className="badge">0</div>
-                </a>
+                <Link href="/cart">
+                  <a className="shopping-cart">
+                    <HiOutlineShoppingBag />
+                    <div className="badge">0</div>
+                  </a>
+                </Link>
               </li>
               <li>
                 <MobileNavbar />

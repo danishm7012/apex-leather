@@ -7,11 +7,11 @@ import BusinessFashion from "./busniessFashion";
 import AboutUs from "../aboutUs";
 import ProcessDetail from "./processDetail";
 
-const HomePage = () => {
+const HomePage = ({Product}) => {
   return (
     <div>
       <MainBanner />
-      <LeatherTanning />
+      <LeatherTanning Product={Product} />
       <MenFashion />
       <WomenFashion />
       <BusinessFashion />

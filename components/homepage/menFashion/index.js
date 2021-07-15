@@ -7,7 +7,7 @@ import { MenFashionData } from "../../../data/productData";
 import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-const MenFashion = () => {
+const MenFashion = ({}) => {
   console.log("Men Data", MenFashionData);
   var settings = {
     dots: true,

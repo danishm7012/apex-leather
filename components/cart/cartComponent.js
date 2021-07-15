@@ -31,7 +31,7 @@ const cartComponent = () => {
                       </button>
                     </td>
                     <td>
-                      <Image src={Leather} width={70} height={70} />
+                      <Image src={Leather} alt="cart image" width={70} height={70} />
                     </td>
 
                     <td className="title">

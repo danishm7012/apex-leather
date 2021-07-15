@@ -8,7 +8,7 @@ import { ProductData } from "../../../data/productData";
 import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-const LeatherTanning = () => {
+const LeatherTanning = ({Product}) => {
   var settings = {
     dots: true,
     infinite: true,

@@ -21,7 +21,7 @@ const ProductFullDetail = () => {
         <Row>
           <Col md={6} xs={12} className="mt-3">
             <div className="img text-center">
-              <Image src={ProductImg} width={400} height={400} />
+              <Image src={ProductImg} width={400} height={400} alt="Details Image" />
             </div>
           </Col>
           <Col md={6} xs={12} className="mt-3">
@@ -57,35 +57,35 @@ const ProductFullDetail = () => {
                 <ul className="">
                   <li>
                     <div className="product-social facebook">
-                      <a href="">
+                      <a href="https://en-gb.facebook.com/">
                         <FaFacebookF className="icons" />
                       </a>
                     </div>
                   </li>
                   <li>
                     <div className="product-social twitter">
-                      <a href="/about">
+                      <a href="https://www.twitter.com/">
                         <FaTwitter className="icons" />
                       </a>
                     </div>
                   </li>
                   <li>
                     <div className="product-social linkedin">
-                      <a href="">
+                      <a href="https://www.linkedin.com/">
                         <FaLinkedin className="icons" />
                       </a>
                     </div>
                   </li>
                   <li>
                     <div className="product-social pintrest">
-                      <a href="">
+                      <a href="https:/www.pinterest.com/">
                         <FaPinterestP className="icons" />
                       </a>
                     </div>
                   </li>
                   <li>
                     <div className="product-social google">
-                      <a href="">
+                      <a href="https://www.goole.com/">
                         <FaGooglePlusG className="icons" />
                       </a>
                     </div>
