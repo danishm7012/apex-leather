@@ -23,7 +23,7 @@ const Footer = () => {
                 </p>
                 <p>
                   <span>UAE Office:</span>
-                  Park Lane Plaza, 12th Floor, Office No. 1213, Down Town, Dubai
+                  Park Lane Plaza, 12th Floor, Office No. 1213, Business Bay, Dubai
                   UAE. P.O.
                   <br />
                   BOX 415253
