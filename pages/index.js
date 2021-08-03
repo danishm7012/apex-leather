@@ -2,7 +2,6 @@ import HomePage from "../components/homepage";
 import Meta from "../components/Meta";
 
 export default function Home({ Product }) {
-  console.log("Product Data", Product);
   return (
     <>
       <Meta />

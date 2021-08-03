@@ -5,9 +5,8 @@ import { BsArrowRight } from "react-icons/bs";
 import Slider from "react-slick";
 import { MenFashionData } from "../../../data/productData";
 import Link from "next/link";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-const MenFashion = ({}) => {
+
+const MenFashion = ({ Product }) => {
   console.log("Men Data", MenFashionData);
   var settings = {
     dots: true,
@@ -39,7 +38,6 @@ const MenFashion = ({}) => {
           slidesToScroll: 1,
         },
       },
-      
     ],
   };
   return (
@@ -51,12 +49,12 @@ const MenFashion = ({}) => {
           <br />
         </div>
         <Slider {...settings}>
-          {MenFashionData.map((Data) => {
+          {Product.slice(1, 8).map((Data) => {
             return (
               <div className="p-2" key={Data.id}>
                 <ProductCard
-                  BgImg={Data.img.type}
-                  ProductTitle={Data.productTitle}
+                  BgImg={Data.image[0].url}
+                  ProductTitle={Data.title}
                 />
               </div>
             );

@@ -8,7 +8,8 @@ import { ProductData } from "../../../data/productData";
 import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-const LeatherTanning = ({Product}) => {
+const LeatherTanning = ({ Product }) => {
+  console.log("Leather Products", Product);
   var settings = {
     dots: true,
     infinite: true,
@@ -22,27 +23,27 @@ const LeatherTanning = ({Product}) => {
           slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1.1,
-          slidesToScroll: 1
-        }
-      }
+          slidesToScroll: 1,
+        },
+      },
       // You can unslick at a given breakpoint now by adding:
       // settings: "unslick"
       // instead of a settings object
-    ]
+    ],
   };
   return (
     <div>
@@ -53,12 +54,12 @@ const LeatherTanning = ({Product}) => {
           <br />
         </div>
         <Slider {...settings}>
-          {ProductData.map((Data) => {
+          {Product.slice(1, 8).map((Data) => {
             return (
               <div className="p-2" key={Data.id}>
                 <ProductCard
-                  BgImg={Data.img.type}
-                  ProductTitle={Data.productTitle}
+                  BgImg={Data.image[0].url}
+                  ProductTitle={Data.title}
                 />
               </div>
             );

@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
-import { FaTwitter, FaLinkedin, FaFacebook,FaInstagram } from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -23,8 +23,8 @@ const Footer = () => {
                 </p>
                 <p>
                   <span>UAE Office:</span>
-                  Park Lane Plaza, 12th Floor, Office No. 1213, Business Bay, Dubai
-                  UAE. P.O.
+                  Park Lane Plaza, 12th Floor, Office No. 1213, Business Bay,
+                  Dubai UAE. P.O.
                   <br />
                   BOX 415253
                   <br />
@@ -66,30 +66,30 @@ const Footer = () => {
                   <ul>
                     <li className=" ">
                       <div className="social-icons facebook">
-                        <Link href="/">
+                        <a href="https://www.facebook.com">
                           <FaFacebook className="icon" />
-                        </Link>
+                        </a>
                       </div>
                     </li>
                     <li className=" ">
                       <div className="social-icons twitter">
-                        <Link href="/">
+                        <a href="https://www.twitter.com">
                           <FaTwitter className="icon" />
-                        </Link>
+                        </a>
                       </div>
                     </li>
                     <li className=" ">
                       <div className="social-icons linkedin">
-                        <Link href="/">
+                        <a href="https://linkedin.com">
                           <FaLinkedin className="icon" />
-                        </Link>
+                        </a>
                       </div>
                     </li>
                     <li className=" ">
                       <div className="social-icons instagram">
-                        <Link href="/">
+                        <a href="https://www.instagram.com">
                           <FaInstagram className="icon" />
-                        </Link>
+                        </a>
                       </div>
                     </li>
                   </ul>

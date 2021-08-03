@@ -12,9 +12,9 @@ const HomePage = ({Product}) => {
     <div>
       <MainBanner />
       <LeatherTanning Product={Product} />
-      <MenFashion />
-      <WomenFashion />
-      <BusinessFashion />
+      <MenFashion Product={Product} />
+      <WomenFashion Product={Product}/>
+      <BusinessFashion Product={Product} />
       <AboutUs />
       <ProcessDetail />
     </div>

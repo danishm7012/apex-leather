@@ -6,47 +6,52 @@ import LeatherImg from "../../assests/images/leather-tanning-1.jpg";
 
 const ProductCard = ({
   BgImg,
-  DetailLink,
   WishListLink,
   CompareLink,
-  CartLink,
-  TitleLink,
+  addToCart,
   ProductTitle,
 }) => {
   return (
     <div>
       <div className="product-card p-2">
-        <div className="product-img" style={{ background: `${BgImg}` }}>
+        <div
+          className="product-img"
+          style={{ backgroundImage: `url(${BgImg})` }}
+        >
+          {/* <img src={BgImg } alt="" /> */}
           <div className="overlay">
             <div className="cart-icons">
               <ul>
                 <li>
-                  <Link href={""}>
+                  <Link href={`productDetail/3`}>
                     <a className="icons">
                       <FaEye />
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href={`WishListLink`}>
+                  <Link href="">
                     <a className="icons">
                       <FaHeart />
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href={`CompareLink`}>
+                  <Link href="">
                     <a className="icons">
                       <ImCopy />
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href={`CartLink`}>
+                  <button
+                    onClick={addToCart}
+                    style={{ background: "transparent", border: "none" }}
+                  >
                     <a className="icons">
                       <FaShoppingCart />
                     </a>
-                  </Link>
+                  </button>
                 </li>
               </ul>
             </div>
@@ -54,7 +59,7 @@ const ProductCard = ({
         </div>
 
         <div className="product-text p-2">
-          <Link href={`TitleLink`}>{ProductTitle}</Link>
+          <Link href={`productDetail/3`}>{ProductTitle}</Link>
         </div>
       </div>
     </div>

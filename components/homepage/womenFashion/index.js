@@ -6,9 +6,8 @@ import { BsArrowRight } from "react-icons/bs";
 import Slider from "react-slick";
 import { ProductData } from "../../../data/productData";
 import Link from "next/link";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-const WomenFashion = () => {
+
+const WomenFashion = ({ Product }) => {
   var settings = {
     dots: true,
     infinite: true,
@@ -53,12 +52,12 @@ const WomenFashion = () => {
           <br />
         </div>
         <Slider {...settings}>
-          {ProductData.map((Data) => {
+          {Product.slice(1, 8).map((Data) => {
             return (
               <div className="p-2" key={Data.id}>
                 <ProductCard
-                  BgImg={Data.img.type}
-                  ProductTitle={Data.productTitle}
+                  BgImg={Data.image[0].url}
+                  ProductTitle={Data.title}
                 />
               </div>
             );
