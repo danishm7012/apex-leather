@@ -79,7 +79,6 @@ const MainNavbar = () => {
                         <Link href="">Watch Straps</Link>
                       </li>
                     </ul>
-                  
                   </div>
                 </li>
                 <li className="inner-dropdown w-100">
@@ -110,7 +109,6 @@ const MainNavbar = () => {
                         <Link href="">Wrist / Clutch Bags</Link>
                       </li>
                     </ul>
-                  
                   </div>
                 </li>
 
@@ -148,8 +146,6 @@ const MainNavbar = () => {
                         <Link href="">Waist Coats / Gilets</Link>
                       </li>
                     </ul>
-                 
-                 
                   </div>
                 </li>
               </ul>
@@ -197,8 +193,6 @@ const MainNavbar = () => {
                         <Link href="">Lipstick Cases</Link>
                       </li>
                     </ul>
-                  
-                  
                   </div>
                 </li>
 
@@ -227,7 +221,6 @@ const MainNavbar = () => {
                         <Link href="">Crossbody Bags</Link>
                       </li>
                     </ul>
-                 
                   </div>
                 </li>
 
@@ -265,8 +258,6 @@ const MainNavbar = () => {
                         <Link href="">Waist Coats / Gilets</Link>
                       </li>
                     </ul>
-                  
-                  
                   </div>
                 </li>
               </ul>
@@ -302,7 +293,6 @@ const MainNavbar = () => {
                         <Link href="">Notepads</Link>
                       </li>
                     </ul>
-                 
                   </div>
                 </li>
 
@@ -350,7 +340,6 @@ const MainNavbar = () => {
                         <Link href="">Writing Portfolios</Link>
                       </li>
                     </ul>
-                  
                   </div>
                 </li>
               </ul>
@@ -402,6 +391,9 @@ const MainNavbar = () => {
           </li>
           <li>
             <Link href="/contactUs">contact us</Link>
+          </li>
+          <li>
+            <Link href="/login">Login</Link>
           </li>
         </ul>
       </div>
