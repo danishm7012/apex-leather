@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import Link from "next/link";
 import { FaFacebookF, FaGooglePlusG, FaLinkedinIn } from "react-icons/fa";
+import SocialLogin from "./SocialLogin";
 import {
   HiOutlineUser,
   HiOutlineMail,
@@ -16,8 +17,8 @@ const SignUpForm = () => {
   const submitHandler = (event) => {
     event.preventDefault();
 
-    let contactData = { name, email, password };
-    console.log("sign up data", contactData);
+    let signUp = { name, email, password };
+    console.log("sign up data", signUp);
     // const config = {
     //   headers: {
     //     "Content-Type": "application/json",
@@ -25,7 +26,7 @@ const SignUpForm = () => {
     // };
 
     // axios
-    //   .post("https://digipremier.org/api/contact/add", contactData, config)
+    //   .post("https://digipremier.org/api/contact/add", signUp, config)
     //   .then((res) => {
     //     setErrors({});
     //     alert(res.data.success);
@@ -65,23 +66,7 @@ const SignUpForm = () => {
               <div>
                 <h2>Create Account</h2>
                 <div className="social-logins">
-                  <ul>
-                    <li>
-                      <button className="btn btn-1">
-                        <FaFacebookF />
-                      </button>
-                    </li>
-                    <li>
-                      <button className="btn btn-1">
-                        <FaGooglePlusG />
-                      </button>
-                    </li>
-                    <li>
-                      <button className="btn btn-1">
-                        <FaLinkedinIn />
-                      </button>
-                    </li>
-                  </ul>
+                  <SocialLogin />
                 </div>
 
                 <p>Or use your email Accounts</p>

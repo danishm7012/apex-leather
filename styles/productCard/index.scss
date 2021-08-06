@@ -58,4 +58,23 @@
       }
     }
   }
+  .new-price {
+    color: #fc4f4f;
+    font-size: 23px;
+    font-weight: 700;
+  }
+  .old-price {
+    text-decoration: line-through;
+    text-decoration-color: #fc4f4f;
+  }
+  .add-to-cart {
+    background: #fc4f4f;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    color: #fff;
+    .icons {
+      margin-right: 1rem;
+    }
+  }
 }

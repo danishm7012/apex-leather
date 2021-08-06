@@ -9,6 +9,7 @@ import Link from "next/link";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const BusinessFashion = ({ Product }) => {
+  console.log("Product Data", Product);
   var settings = {
     dots: true,
     infinite: true,
@@ -59,6 +60,9 @@ const BusinessFashion = ({ Product }) => {
                 <ProductCard
                   BgImg={Data.image[0].url}
                   ProductTitle={Data.title}
+                  newPrice={Data.price}
+                  Slug={Data.slug}
+                  ID={Data.id}
                 />
               </div>
             );

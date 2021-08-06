@@ -58,6 +58,9 @@ const WomenFashion = ({ Product }) => {
                 <ProductCard
                   BgImg={Data.image[0].url}
                   ProductTitle={Data.title}
+                  newPrice={Data.price}
+                  Slug={Data.slug}
+                  ID={Data.id}
                 />
               </div>
             );

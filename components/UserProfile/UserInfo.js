@@ -11,7 +11,7 @@ import { RiUserLocationFill } from "react-icons/ri";
 const UserInfo = () => {
   return (
     <div>
-      <div className="personal-details p-3">
+      <div className="personal-details p-3 mt-3">
         <h2>Personal Information</h2>
         <hr />
         <ul>

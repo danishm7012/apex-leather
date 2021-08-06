@@ -27,12 +27,12 @@ const DeskopSearch = () => {
                 <SearchPage />
               </li>
               <li>
-                <Link href="/cart">
-                  <a className="shopping-cart">
-                    <HiOutlineShoppingBag />
-                    <div className="badge">0</div>
-                  </a>
-                </Link>
+                <a className="shopping-cart header__summary snipcart-checkout snipcart-summary">
+                  <HiOutlineShoppingBag />
+                  <span className="badge  header__price snipcart-total-price">
+                    0
+                  </span>
+                </a>
               </li>
               <li>
                 <MobileNavbar />

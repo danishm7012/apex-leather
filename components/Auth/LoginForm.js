@@ -1,13 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import Link from "next/link";
-import { FaFacebookF, FaGooglePlusG, FaLinkedinIn } from "react-icons/fa";
+import SocialLogin from "./SocialLogin";
 import {
   HiOutlineUser,
   HiOutlineMail,
   HiOutlineLockClosed,
 } from "react-icons/hi";
 const LoginForm = () => {
+  
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const submitHandler = (event) => {
+    event.preventDefault();
+
+    let loginData = { email, password };
+    console.log("sign up data", loginData);
+    // const config = {
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    // };
+
+    // axios
+    //   .post("https://digipremier.org/api/contact/add", loginData, config)
+    //   .then((res) => {
+    //     setErrors({});
+    //     alert(res.data.success);
+    //     setSuccess(res.data.success);
+    //   })
+    //   .catch((err) => {
+    //     setSuccess(false);
+    //     setErrors(err.response.data);
+    //   });
+  };
   return (
     <div>
       <Container
@@ -21,34 +48,28 @@ const LoginForm = () => {
               <div>
                 <h2>Sign In To Apex Leather</h2>
                 <div className="social-logins">
-                  <ul>
-                    <li>
-                      <button className="btn btn-1">
-                        <FaFacebookF />
-                      </button>
-                    </li>
-                    <li>
-                      <button className="btn btn-1">
-                        <FaGooglePlusG />
-                      </button>
-                    </li>
-                    <li>
-                      <button className="btn btn-1">
-                        <FaLinkedinIn />
-                      </button>
-                    </li>
-                  </ul>
+                  <SocialLogin/>
                 </div>
 
                 <p>Or use your email Accounts</p>
                 <div className="form">
-                  <form>
+                  <form onSubmit={submitHandler}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                      <Form.Control type="email" placeholder="Email" />
+                      <Form.Control
+                        type="email"
+                        placeholder="Email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                      />
                       <HiOutlineMail className="icons" />
                     </Form.Group>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                      <Form.Control type="password" placeholder="Passwords" />
+                      <Form.Control
+                        type="password"
+                        placeholder="Passwords"
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                      />
                       <HiOutlineLockClosed className="icons" />
                     </Form.Group>
                     <Link href="">
