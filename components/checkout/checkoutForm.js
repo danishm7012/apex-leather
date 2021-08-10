@@ -5,7 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Input from "../elements/input";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { useFormik } from "formik";
+import { UseFormik } from "formik";
 import * as Yup from "yup";
 
 const initialValues = {
@@ -53,7 +53,7 @@ const validationSchema = Yup.object({
 });
 
 const checkoutForm = () => {
-  const formik = useFormik({
+  const formik = UseFormik({
     initialValues,
     onSubmit,
     // validate,

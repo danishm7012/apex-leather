@@ -8,7 +8,7 @@ const checkout = () => {
     <div>
       <Meta title="Checkout" keywords="Apex Leather" />
       <Hero title="Checkout" current="checkout" />
-      <CheckoutPage />
+      {/* <CheckoutPage /> */}
     </div>
   );
 };

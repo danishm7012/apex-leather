@@ -61,7 +61,7 @@ const CategoryDynamic = () => {
           <Row>
             {MenFashionData.map((Data) => {
               return (
-                <Col md={3} sm={6} xs={12}>
+                <Col md={3} sm={6} xs={12} key={Data.id}>
                   <ProductCard
                     BgImg={Data.img.type}
                     ProductTitle={Data.productTitle}
@@ -72,7 +72,6 @@ const CategoryDynamic = () => {
           </Row>
         </Container>
       </div>
-    
     </div>
   );
 };

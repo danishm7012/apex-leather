@@ -41,7 +41,7 @@ const UserInfo = () => {
           </li>
         </ul>
         <br />
-        <Link href="">
+        <Link href="/">
           <button className="btn btn-1">
             <span className="mr-2">
               <AiOutlineEdit />

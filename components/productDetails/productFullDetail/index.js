@@ -112,7 +112,7 @@ const ProductFullDetail = ({ product }) => {
               </h3>
               <div className="detail-add">
                 <button
-                  class="snipcart-add-item add-to-cart"
+                  className="snipcart-add-item add-to-cart"
                   data-item-id={product.id}
                   data-item-price={product.price}
                   data-item-url="/paintings/starry-night"
