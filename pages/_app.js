@@ -10,7 +10,7 @@ import Head from "next/head";
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <Head>
+      <Layout>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
         <script
           src="https://cdn.snipcart.com/scripts/2.0/snipcart.js"
@@ -22,8 +22,6 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
           type="text/css"
         />
-      </Head>
-      <Layout>
         <Component {...pageProps} />
       </Layout>
     </>
