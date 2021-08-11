@@ -7,7 +7,7 @@ import { MenFashionData } from "../../../data/productData";
 import Link from "next/link";
 
 const MenFashion = ({ Product }) => {
-  console.log("Men Data", MenFashionData);
+  // console.log("Men Products", MenProducts);
   var settings = {
     dots: true,
     infinite: true,
@@ -80,5 +80,18 @@ const MenFashion = ({ Product }) => {
     </div>
   );
 };
+
+// export const getStaticProps = async () => {
+//   const res = await fetch(
+//     `https://apex-leather.herokuapp.com/categories/man-fashion`
+//   );
+//   const MenProduct = await res.json();
+//   console.log("Men Products in response", MenProduct);
+//   const MenProducts = MenProduct.products;
+
+//   return {
+//     props: { MenProducts },
+//   };
+// };
 
 export default MenFashion;

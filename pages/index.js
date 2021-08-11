@@ -1,7 +1,8 @@
 import HomePage from "../components/homepage";
 import Meta from "../components/Meta";
 
-export default function Home({ Product }) {
+export default function Home({ Product, womenFashion }) {
+  console.log("women fashion", womenFashion);
   return (
     <>
       <Meta />
@@ -13,10 +14,15 @@ export default function Home({ Product }) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`https://apex-leather.herokuapp.com/products`);
-  const Product = await res.json();
+  const res1 = await fetch(`https://apex-leather.herokuapp.com/products`);
+  const Product = await res1.json();
+  const res2 = await fetch(
+    `https://apex-leather.herokuapp.com/categories/women-fashion`
+  );
+  const womenFashion = await res2.json();
+  console.log(womenFashion);
 
   return {
-    props: { Product },
+    props: { Product, womenFashion },
   };
 };

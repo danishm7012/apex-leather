@@ -7,13 +7,14 @@ import BusinessFashion from "./busniessFashion";
 import AboutUs from "../aboutUs";
 import ProcessDetail from "./processDetail";
 
-const HomePage = ({Product}) => {
+const HomePage = ({ Product, womenFashion }) => {
+  console.log("women data", Product);
   return (
     <div>
       <MainBanner />
       <LeatherTanning Product={Product} />
       <MenFashion Product={Product} />
-      <WomenFashion Product={Product}/>
+      <WomenFashion Product={Product} />
       <BusinessFashion Product={Product} />
       <AboutUs />
       <ProcessDetail />
